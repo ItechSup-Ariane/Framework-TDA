@@ -16,6 +16,7 @@ class Bouton extends Widget{
     //put your code here
     protected $type="button";
 
+    
     //<button name="button">Click me</button>
     
     public function Afficher(){
