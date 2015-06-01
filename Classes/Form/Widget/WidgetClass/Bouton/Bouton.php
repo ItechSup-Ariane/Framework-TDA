@@ -15,9 +15,6 @@ use Form\Widget\Widget;
 class Bouton extends Widget{
     //put your code here
     protected $type="button";
-
-    
-    //<button name="button">Click me</button>
     
     public function Afficher(){
         $result = $this->name . "<input type='" . $this->type . "' "
