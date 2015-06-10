@@ -7,26 +7,46 @@ namespace Form\GroupWidget;
  */
 
 /**
- * Description of GroupWidget
+ * Définition de la classe GroupWidget permettant la création d'un groupe de widgets
  *
  * @author Thomas
  */
 class GroupWidget {
-    //put your code here
+    
+    /**
+     * Attribut comprenant la liste des widgets composant le groupe
+     * 
+     * @var type 
+     */
     protected $listeWidget;
     
+    /**
+     * Getter de l'attribut listeWidget
+     * 
+     * @return type
+     */
     public function getListeWidget(){
         return $this->listeWidget;
     }
     
+    /**
+     * Méthode d'ajout de widget à la liste
+     * 
+     * @param type $widget
+     */
     public function ajouterWidget($widget){
         $this->listeWidget[] = $widget;
     }
     
-    public function Afficher(){
+    /**
+     * Méthode d'affichage du groupe de widget
+     * 
+     * @return $retour contenant la chaîne à afficher
+     */
+    public function afficher(){
         $retour = "";
         foreach ($this->listeWidget as $elem) {
-            $retour .= $elem->Afficher();
+            $retour .= $elem->afficher();
             $retour .= "<br><br>";
         }
         return $retour;

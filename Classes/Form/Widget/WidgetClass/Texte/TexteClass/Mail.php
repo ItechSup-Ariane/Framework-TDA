@@ -2,22 +2,16 @@
 namespace Form\Widget\WidgetClass\Texte\TexteClass;
 use Form\Widget\WidgetClass\Texte\Texte;
 
-//namespace Mail;
-//use 'Form\Widget\WidgetClass\Texte\TexteClass\Mail';
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
- * Description of Mail
+ * Définition de la classe Mail qui permet de créer un Widget de type mail
  *
  * @author Thomas
  */
 class Mail extends Texte{
-    //put your code here
-    //use Framework\Classes\Form\Widget;
-    
+    /**
+     * Définition du type de widget
+     * 
+     * @var type 
+     */
     protected $type="email";
 }

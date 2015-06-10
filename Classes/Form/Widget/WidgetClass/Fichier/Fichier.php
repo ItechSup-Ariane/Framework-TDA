@@ -1,16 +1,6 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- * Description of Fichier
- *
- * @author Thomas
- */
 class Fichier {
     //put your code here
     private $taille;
@@ -37,7 +27,7 @@ class Fichier {
         $this->type = type;
     }
     
-    public function affichage(){
+    public function afficher(){
         echo('<input type="file"  value="">');
     }
 }

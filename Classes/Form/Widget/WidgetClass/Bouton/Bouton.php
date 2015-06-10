@@ -1,22 +1,22 @@
 <?php
 namespace Form\Widget\WidgetClass\Bouton;
 use Form\Widget\Widget;
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
- * Description of Bouton
+ * Définition du type Bouton qui hérite de la classe Widget
  *
  * @author Thomas
  */
 class Bouton extends Widget{
-    //put your code here
+    //Définition du type de widget
     protected $type="button";
     
-    public function Afficher(){
+    /**
+     * Méthode d'affichage des Widgets de type Bouton
+     * 
+     * @return result correspondant à la chaîne à afficher
+     */
+    public function afficher(){
         $result = $this->name . "<input type='" . $this->type . "' "
                 . $this->listeAttributs . " name='" . $this->name . "value='"
                 . $this->valeur . "'>";

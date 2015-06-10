@@ -1,5 +1,5 @@
 <?php
-
+namespace Form\ListButtonWidget;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -7,18 +7,15 @@
  */
 
 /**
- * Description of Liste
+ * Description of ListButtonWidget
  *
  * @author Thomas
  */
-class Liste {
+abstract class ListButtonWidget {
     //put your code here
+    protected $type;
     
-    public function __construct() {
-        
-    }
-    
-    public function affichage(){
+    public function afficher(){
         
     }
 }

@@ -3,19 +3,16 @@ namespace Form\GroupWidget\GroupWidgetClass;
 use Form\GroupWidget\GroupWidget;
 use Form\Widget\WidgetClass\Texte\Texte;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
- * Description of Adresse
+ * Implémentation de la classe GroupWidget permettant la création d'un objet de type Adresse
  *
  * @author Thomas
  */
 class Adresse extends GroupWidget{
-    //put your code here
+    
+    /**
+     * Constructeur permettant de créer l'objet Adresse avec les champs qui le constitue
+     */
     public function __construct() {
         $adresse1 = new Texte();
         $adresse2 = new Texte();

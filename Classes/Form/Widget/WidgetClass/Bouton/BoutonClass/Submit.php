@@ -1,19 +1,27 @@
 <?php
 namespace Form\Widget\WidgetClass\Bouton\BoutonClass;
 use Form\Widget\WidgetClass\Bouton\Bouton;
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
- * Description of Submit
+ * Déclaration du bouton de type Submit
+ * 
+ * Implémentation du type Bouton
  *
  * @author Thomas
  */
 class Submit extends Bouton{
-    //put your code here
+    
+    /**
+     * Définition du type de bouton
+     * 
+     * @var type 
+     */
     protected $type="submit";
+    
+    /**
+     * Définition de la valeur du bouton
+     * 
+     * @var type 
+     */
     protected  $valeur="Valider";
 }
