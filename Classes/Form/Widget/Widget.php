@@ -7,7 +7,8 @@ namespace Form\Widget;
  *
  * @author Thomas
  */
-abstract class Widget {
+abstract class Widget 
+{
     
     protected $nom;
     protected $type;
@@ -19,7 +20,8 @@ abstract class Widget {
      * 
      * @return type
      */
-    public function getNom(){
+    public function getNom()
+    {
         return $this->nom;
     }
     
@@ -28,7 +30,8 @@ abstract class Widget {
      * 
      * @param type $nom
      */
-    public function setNom($nom){
+    public function setNom($nom)
+    {
         $this->nom = $nom;
     }
     
@@ -37,7 +40,8 @@ abstract class Widget {
      * 
      * @return type
      */
-    public function getType(){
+    public function getType()
+    {
         return $this->type;
     }
     
@@ -46,7 +50,8 @@ abstract class Widget {
      * 
      * @param type $type
      */
-    public function setType($type){
+    public function setType($type)
+    {
         $this->type = $type;
     }
     
@@ -55,7 +60,8 @@ abstract class Widget {
      * 
      * @return type
      */
-    public function getValeur(){
+    public function getValeur()
+    {
         return $this->valeur;
     }
     
@@ -64,7 +70,8 @@ abstract class Widget {
      * 
      * @param type $valeur
      */
-    public function setValeur($valeur){
+    public function setValeur($valeur)
+    {
         $this->valeur = $valeur;
     }
     
@@ -73,7 +80,8 @@ abstract class Widget {
      * 
      * @return type
      */
-    public function getListeAttributs(){
+    public function getListeAttributs()
+    {
         return $this->listeAttributs;
     }
     
@@ -82,7 +90,8 @@ abstract class Widget {
      * 
      * @param type $listeAttributs
      */
-    public function setListeAttributs($listeAttributs){
+    public function setListeAttributs($listeAttributs)
+    {
         $this->listeAttributs = $listeAttributs;
     }
     

@@ -1,5 +1,6 @@
 <?php
 namespace Form\Widget\WidgetClass\Texte;
+
 use Form\Widget\Widget;
 
 /**
@@ -8,7 +9,8 @@ use Form\Widget\Widget;
  * @author Thomas
  */
 
-class Texte extends Widget{
+class Texte extends Widget
+{
     // Définition du type de widget
     protected $type="text";
 
@@ -17,7 +19,8 @@ class Texte extends Widget{
      * 
      * @return $result qui contiendra la chaîne à afficher
      */
-    public function afficher(){
+    public function afficher()
+    {
         $result = $this->nom . "<input type='" . $this->type . "' "
                 . $this->listeAttributs . " value='"
                 . $this->valeur . "'>";

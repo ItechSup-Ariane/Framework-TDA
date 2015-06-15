@@ -1,5 +1,6 @@
 <?php
 namespace Form\Widget\WidgetClass\Bouton\BoutonClass;
+
 use Form\Widget\WidgetClass\Bouton\Bouton;
 
 /**
@@ -9,7 +10,8 @@ use Form\Widget\WidgetClass\Bouton\Bouton;
  *
  * @author Thomas
  */
-class Submit extends Bouton{
+class Submit extends Bouton
+{
     
     /**
      * Définition du type de bouton

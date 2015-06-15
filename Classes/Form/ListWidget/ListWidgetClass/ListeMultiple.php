@@ -1,5 +1,6 @@
 <?php
 namespace Form\ListWidget\ListWidgetClass;
+
 use Form\ListWidget\ListWidget;
 
 /**
@@ -7,15 +8,18 @@ use Form\ListWidget\ListWidget;
  *
  * @author Thomas
  */
-class ListeMultiple extends ListWidget{
+class ListeMultiple extends ListWidget
+{
     //put your code here
     protected $size;
     
-    public function __construct($size) {
+    public function __construct($size) 
+    {
         $this->size = $size;
     }
     
-    public function afficher(){
+    public function afficher()
+    {
         $result = "<select name='" . $this->name . "' size='" . $this->size . "'> ";
         
         foreach ($this->listElements as $elem){

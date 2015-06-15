@@ -11,7 +11,8 @@ namespace Form\GroupWidget;
  *
  * @author Thomas
  */
-class GroupWidget {
+class GroupWidget 
+{
     
     /**
      * Attribut comprenant la liste des widgets composant le groupe
@@ -25,7 +26,8 @@ class GroupWidget {
      * 
      * @return type
      */
-    public function getListeWidget(){
+    public function getListeWidget()
+    {
         return $this->listeWidget;
     }
     
@@ -34,7 +36,8 @@ class GroupWidget {
      * 
      * @param type $widget
      */
-    public function ajouterWidget($widget){
+    public function ajouterWidget($widget)
+    {
         $this->listeWidget[] = $widget;
     }
     
@@ -43,7 +46,8 @@ class GroupWidget {
      * 
      * @return $retour contenant la chaîne à afficher
      */
-    public function afficher(){
+    public function afficher()
+    {
         $retour = "";
         foreach ($this->listeWidget as $elem) {
             $retour .= $elem->afficher();

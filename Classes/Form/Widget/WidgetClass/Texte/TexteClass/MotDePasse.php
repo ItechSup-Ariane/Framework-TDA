@@ -1,5 +1,6 @@
 <?php
 namespace Form\Widget\WidgetClass\Texte\TexteClass;
+
 use Form\Widget\WidgetClass\Texte\Texte;
 
 /**
@@ -7,7 +8,8 @@ use Form\Widget\WidgetClass\Texte\Texte;
  *
  * @author Thomas
  */
-class MotDePasse extends Texte{
+class MotDePasse extends Texte
+{
     
     /**
      * Définition du type de widget 

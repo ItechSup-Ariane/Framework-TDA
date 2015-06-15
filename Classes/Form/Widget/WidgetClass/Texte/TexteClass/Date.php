@@ -7,7 +7,8 @@ use Form\Widget\WidgetClass\Texte\Texte;
  *
  * @author Thomas
  */
-class Date extends Texte{
+class Date extends Texte
+{
     
     /**
      * Définition du type de widget

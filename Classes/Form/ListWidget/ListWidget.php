@@ -7,7 +7,8 @@ namespace Form\ListWidget;
  *
  * @author Thomas
  */
-abstract class ListWidget {
+abstract class ListWidget 
+{
     //put your code here
     protected $name;
     protected $listElements;
@@ -17,7 +18,8 @@ abstract class ListWidget {
      * 
      * @return type
      */
-    public function getName(){
+    public function getName()
+    {
         return $this->name;
     }
     
@@ -26,7 +28,8 @@ abstract class ListWidget {
      * 
      * @param type $name
      */
-    public function setName($name){
+    public function setName($name)
+    {
         $this->name = $name;
     }
     
@@ -35,7 +38,8 @@ abstract class ListWidget {
      * 
      * @return type
      */
-    public function getListElements(){
+    public function getListElements()
+    {
         return $this->listElements;
     }
     
@@ -44,7 +48,8 @@ abstract class ListWidget {
      * 
      * @param type $element
      */
-    public function ajouterElement($element){
+    public function ajouterElement($element)
+    {
         $this->listElements[] = $element;
     }
     

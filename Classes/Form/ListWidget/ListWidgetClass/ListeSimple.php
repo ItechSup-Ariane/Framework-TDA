@@ -1,5 +1,6 @@
 <?php
 namespace Form\ListWidget\ListWidgetClass;
+
 use Form\ListWidget\ListWidget;
 
 /**
@@ -7,9 +8,11 @@ use Form\ListWidget\ListWidget;
  *
  * @author Thomas
  */
-class ListeSimple extends ListWidget {
+class ListeSimple extends ListWidget 
+{
     
-    public function afficher(){
+    public function afficher()
+    {
         $result = "<select name='" . $this->name . "'> ";
         
         foreach ($this->listElements as $elem){

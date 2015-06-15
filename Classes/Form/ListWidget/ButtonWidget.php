@@ -7,7 +7,8 @@ namespace Form\ListWidget;
  *
  * @author Thomas
  */
-abstract class ButtonWidget {
+abstract class ButtonWidget 
+{
     //put your code here
     /**
      * @var type 
@@ -34,7 +35,8 @@ abstract class ButtonWidget {
      * 
      * @return $result qui contiendra la chaîne à afficher
      */
-    public function afficher(){
+    public function afficher()
+    {
         $result = "<input type='" . $this->type . "' name='" . $this->name . "' value='" . $this->value . "'> ";
         $result .= $this->texte;
         return $result;

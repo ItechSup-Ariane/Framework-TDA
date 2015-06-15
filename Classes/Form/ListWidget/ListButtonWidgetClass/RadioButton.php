@@ -1,5 +1,6 @@
 <?php
 namespace Form\ListWidget\ListButtonWidgetClass;
+
 use Form\ListWidget\ButtonWidget;
 
 /**
@@ -7,7 +8,8 @@ use Form\ListWidget\ButtonWidget;
  *
  * @author Thomas
  */
-class RadioButton extends ButtonWidget{
+class RadioButton extends ButtonWidget
+{
     
     /**
      * Définition du type de widget

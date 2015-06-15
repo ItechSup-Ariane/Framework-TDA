@@ -7,7 +7,8 @@ namespace Form\ListWidget;
  *
  * @author Thomas
  */
-class ListButtonWidget {
+class ListButtonWidget 
+{
     //put your code here
     protected $name;
     protected $listElements;
@@ -15,21 +16,24 @@ class ListButtonWidget {
     /**
      * Getter de l'attribut name
      */
-    public function getName(){
+    public function getName()
+    {
         return $this->name;
     }
     
     /**
      * Setter de l'attribut name
      */
-    public function setName($name){
+    public function setName($name)
+    {
         $this->name = $name;
     }
     
     /**
      * Getter de l'attribut listElement
      */
-    public function getListElements(){
+    public function getListElements()
+    {
         return $this->listElements;
     }
     
@@ -37,7 +41,8 @@ class ListButtonWidget {
      * 
      * @param Element à ajouter
      */
-    public function ajouterElement($element){
+    public function ajouterElement($element)
+    {
         $this->listElements[] = $element;
     }
     
@@ -46,7 +51,8 @@ class ListButtonWidget {
      * 
      * @return $retour contenant la chaîne à afficher
      */
-    public function afficher(){
+    public function afficher()
+    {
         $retour = "";
         foreach ($this->listElements as $elem){
             $retour .= $elem->afficher();

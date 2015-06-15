@@ -6,7 +6,8 @@ namespace Form\ListWidget;
  *
  * @author Thomas
  */
-class ListElement {
+class ListElement 
+{
     //put your code here
     protected $nom;
     protected $valeur;
@@ -17,7 +18,8 @@ class ListElement {
      * @param type $nom
      * @param type $valeur
      */
-    public function __construct($nom, $valeur) {
+    public function __construct($nom, $valeur) 
+    {
         $this->nom = $nom;
         $this->valeur = $valeur;
     }
@@ -27,7 +29,8 @@ class ListElement {
      * 
      * @return La chaîne à afficher
      */
-    public function afficher(){
+    public function afficher()
+    {
         return "<option value='" . $this->nom . "'> " . $this->valeur;
     }
 }

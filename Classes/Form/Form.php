@@ -6,11 +6,13 @@ namespace Form;
  *
  * @author Thomas
  */
-class Form {
+class Form 
+{
     //Liste des widgets ajoutés au formulaire
     private $listeWidget = [];
     
-    public function __construct() {
+    public function __construct()
+    {
         
     }
     
@@ -20,7 +22,8 @@ class Form {
      * @param type $nom du widget à ajouter
      * @param type $widget à ajouter à la liste
      */
-    public function ajouterWidget($nom,$widget){
+    public function ajouterWidget($nom,$widget)
+    {
         $this->listeWidget[$nom] = $widget;
     }
     
@@ -29,7 +32,8 @@ class Form {
      * 
      * @return $chaineRetour correspondant à la chaîne à afficher pour générer le formulaire
      */
-    public function afficher(){
+    public function afficher()
+    {
         $chaineRetour = '<form METHOD="POST">';
         foreach ($this->listeWidget as $elem) {
             $chaineRetour .= $elem->afficher();
