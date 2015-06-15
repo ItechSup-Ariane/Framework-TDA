@@ -13,7 +13,7 @@ class ListeMultiple extends ListWidget
     //put your code here
     protected $size;
     
-    public function __construct($size) 
+    public function __construct($size)
     {
         $this->size = $size;
     }

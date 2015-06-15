@@ -7,7 +7,7 @@ namespace Form\ListWidget;
  *
  * @author Thomas
  */
-class ListButtonWidget 
+class ListButtonWidget
 {
     //put your code here
     protected $name;

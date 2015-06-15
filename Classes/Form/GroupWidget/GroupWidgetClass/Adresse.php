@@ -15,7 +15,7 @@ class Adresse extends GroupWidget
     /**
      * Constructeur permettant de créer l'objet Adresse avec les champs qui le constitue
      */
-    public function __construct() 
+    public function __construct()
     {
         $adresse1 = new Texte();
         $adresse2 = new Texte();

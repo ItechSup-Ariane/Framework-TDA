@@ -8,7 +8,7 @@ use Form\ListWidget\ListWidget;
  *
  * @author Thomas
  */
-class ListeSimple extends ListWidget 
+class ListeSimple extends ListWidget
 {
     
     public function afficher()

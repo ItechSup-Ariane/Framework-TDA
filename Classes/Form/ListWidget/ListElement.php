@@ -6,7 +6,7 @@ namespace Form\ListWidget;
  *
  * @author Thomas
  */
-class ListElement 
+class ListElement
 {
     //put your code here
     protected $nom;
@@ -18,7 +18,7 @@ class ListElement
      * @param type $nom
      * @param type $valeur
      */
-    public function __construct($nom, $valeur) 
+    public function __construct($nom, $valeur)
     {
         $this->nom = $nom;
         $this->valeur = $valeur;

@@ -11,7 +11,7 @@ namespace Form\GroupWidget;
  *
  * @author Thomas
  */
-class GroupWidget 
+class GroupWidget
 {
     
     /**

@@ -6,28 +6,34 @@ class Fichier {
     private $taille;
     private $type;
     
-    function __construct($taille,$type) {
+    public function __construct($taille,$type)
+    {
         $this->taille=$taille;
         $this->type=$type;
     }
     
-    public function getTaille(){
+    public function getTaille()
+    {
         return $this->taille;
     }
     
-    public function setTaille($taille){
+    public function setTaille($taille)
+    {
         $this->taille = taille;
     }
     
-    public function getType(){
+    public function getType()
+    {
         return $this->type;
     }
     
-    public function setType(){
+    public function setType()
+    {
         $this->type = type;
     }
     
-    public function afficher(){
+    public function afficher()
+    {
         echo('<input type="file"  value="">');
     }
 }
